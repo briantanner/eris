@@ -1,5 +1,5 @@
 {
-  "name": "eris",
+  "name": "@dyno.gg/eris",
   "version": "0.7.2",
   "description": "A NodeJS Discord library",
   "main": "./index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/abalabahaha/eris.git"
+    "url": "git+https://github.com/briantanner/eris.git"
   },
   "keywords": [
     "api",
@@ -23,7 +23,7 @@
   "author": "abalabahaha",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/abalabahaha/eris/issues"
+    "url": "https://github.com/briantanner/eris/issues"
   },
   "homepage": "https://abal.moe/Eris/",
   "dependencies": {
