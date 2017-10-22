@@ -1,4 +1,4 @@
-declare module "eris" {
+declare module "@dyno.gg/eris" {
   import { EventEmitter } from "events";
   import { Readable as ReadableStream } from "stream";
 

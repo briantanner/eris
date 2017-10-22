@@ -1,8 +1,9 @@
 {
   "name": "@dyno.gg/eris",
-  "version": "0.7.3",
+  "version": "0.7.4",
   "description": "A NodeJS Discord library",
   "main": "./index.js",
+  "typings": "./index",
   "engines": {
     "node": ">=4.0.0"
   },
