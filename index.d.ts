@@ -1,4 +1,4 @@
-declare module "eris" {
+declare module "@dyno.gg/eris" {
   // TODO good hacktoberfest PR: implement ShardManager, RequestHandler and other stuff
   import { EventEmitter } from "events";
   import { Readable as ReadableStream } from "stream";
@@ -389,7 +389,7 @@ declare module "eris" {
     splash?: string;
     banner?: string;
   }
-  interface MemberOptions { roles?: string[]; nick?: string; mute?: boolean; deaf?: boolean; channelID?: string; }
+  interface MemberOptions { roles?: string[]; nick?: string; mute?: boolean; deaf?: boolean; channelID?: string; reason?: string; }
   interface RoleOptions { name?: string; permissions?: number; color?: number; hoist?: boolean; mentionable?: boolean; }
   interface GamePresence { name: string; type?: number; url?: string; }
   interface SearchOptions {
@@ -1301,6 +1301,7 @@ declare module "eris" {
     public reactions: { [s: string]: any, count: number, me: boolean };
     public prefix?: string;
     public command?: Command;
+    public pinned?: boolean;
     public constructor(data: BaseData, client: Client);
     public edit(content: MessageContent): Promise<Message>;
     public pin(): Promise<void>;
