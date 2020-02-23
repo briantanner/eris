@@ -1,5 +1,5 @@
 {
-  "name": "eris",
+  "name": "@dyno.gg/eris",
   "version": "0.13.3",
   "description": "A NodeJS Discord library",
   "main": "./index.js",
