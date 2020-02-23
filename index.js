@@ -31,6 +31,7 @@ Eris.PrivateChannel = require("./lib/structures/PrivateChannel");
 Eris.Relationship = require("./lib/structures/Relationship");
 Eris.Role = require("./lib/structures/Role");
 Eris.Shard = require("./lib/gateway/Shard");
+Eris.ShardManager = require("./lib/gateway/ShardManager");
 Eris.SharedStream = require("./lib/voice/SharedStream");
 Eris.TextChannel = require("./lib/structures/TextChannel");
 Eris.User = require("./lib/structures/User");
