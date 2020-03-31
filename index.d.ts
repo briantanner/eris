@@ -1975,6 +1975,7 @@ declare namespace Eris {
     toString(): string;
     toJSON(props?: string[]): JSONCache;
     sendWS(op: number, _data: object, priority: boolean): void;
+    requestGuildMembers(guildID: string, query: string, limit: number): void;
   }
 
   export class Command {
