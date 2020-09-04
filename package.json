@@ -1,6 +1,6 @@
 {
   "name": "@dyno.gg/eris",
-  "version": "0.13.6",
+  "version": "0.13.7",
   "description": "A NodeJS Discord library",
   "main": "./index.js",
   "exports": {
@@ -41,6 +41,7 @@
   },
   "homepage": "https://abal.moe/Eris/",
   "dependencies": {
+    "lru-cache": "^6.0.0",
     "ws": "^7.2.1"
   },
   "devDependencies": {
